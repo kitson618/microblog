@@ -1,0 +1,102 @@
+2019-01-26 23:52:44,591 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-26 23:55:00,567 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-26 23:55:11,344 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-26 23:55:25,077 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-26 23:55:37,869 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-26 23:55:52,347 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:00:08,008 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:15:17,028 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:15:43,734 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:15:52,616 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:16:27,259 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:17:03,907 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:17:12,321 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:17:24,790 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:17:28,459 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:17:51,104 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:18:04,286 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:18:16,109 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:18:56,397 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:19:13,581 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:19:18,085 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:27:05,962 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:30:34,451 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:31:58,550 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:32:36,037 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:32:44,554 INFO: Microblog startup [in /Users/kitson/PycharmProjects/microblog/app/__init__.py:43]
+2019-01-27 00:33:25,927 ERROR: Exception on /index [GET] [in /Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kitson/PycharmProjects/microblog/app/routes.py", line 30, in index
+    page, app.config['POSTS_PER_PAGE'], False)
+KeyError: 'POSTS_PER_PAGE'
+2019-01-27 00:34:00,203 ERROR: Exception on /index [GET] [in /Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kitson/PycharmProjects/microblog/app/routes.py", line 30, in index
+    page, app.config['POSTS_PER_PAGE'], False)
+KeyError: 'POSTS_PER_PAGE'
+2019-01-27 00:34:01,507 ERROR: Exception on /index [GET] [in /Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kitson/PycharmProjects/microblog/app/routes.py", line 30, in index
+    page, app.config['POSTS_PER_PAGE'], False)
+KeyError: 'POSTS_PER_PAGE'
+2019-01-27 00:34:05,758 ERROR: Exception on /index [GET] [in /Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kitson/PycharmProjects/microblog/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kitson/PycharmProjects/microblog/app/routes.py", line 30, in index
+    page, app.config['POSTS_PER_PAGE'], False)
+KeyError: 'POSTS_PER_PAGE'
