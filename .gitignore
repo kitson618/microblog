@@ -160,3 +160,8 @@ fabric.properties
 
 # Database
 /app.db
+
+# logs
+logs/
+logs/*.log
+
